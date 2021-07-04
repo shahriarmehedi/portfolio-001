@@ -16,7 +16,7 @@ body {
 }
 
 .half-width img {
-  width: 100%;
+  width: 80%;
 }
 
 h1 {
@@ -37,7 +37,17 @@ h1 {
   color: orange;
 }
 
-#top-left {
-  isplay: inline-block;
-  margin: 0 0 -30px 0;
+.part1 {
+  background-image: url(Images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.part2 {
+  background-image: url(Images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+div {
+  margin-top: 50px;
 }
