@@ -48,6 +48,35 @@ h1 {
   background-position: right;
 }
 
+.part3 {
+  background-image: url(Images/exp-bg.png);
+  background-repeat: no-repeat;
+}
 div {
   margin-top: 50px;
+}
+
+.experience-text {
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.box-shadow {
+  box-shadow: 5px 7px 40px grey;
+}
+
+footer {
+  text-align: center;
+}
+
+.full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+.wordpress {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
 }
